@@ -1,8 +1,8 @@
 require("http").createServer((_, res) => res.end("Hello Owner.")).listen(0000)
 
-const sessionName = 'OpenAi'
+const sessionName = 'yasril'
 const donet = '-'
-const owner = ['6285878313791']
+const owner = ['6285641476033']
 const { default: ZakkConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getContentType } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState('./session.json')
 const pino = require('pino')
